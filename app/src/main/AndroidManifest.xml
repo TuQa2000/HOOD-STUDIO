@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HoodStudioCarpentryApp"
+        tools:targetApi="31" >
+        <activity
+            android:name=".Admin.AdminViewOrders"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmpViewOrders"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CustomerProfile"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.About"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CustomerSettings"
+            android:exported="false" />
+        <activity
+            android:name=".AdminChangeOpen"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.UpdateOpen"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmployeeSelectCategory"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminSelectCategory1"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CustomerSelectcategory"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminSelectCategory"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CustomizedOrder"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmpChangeStatusOrder"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.UpdateItem"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.changeOrderStatus"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.DeleteItem"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AddItem"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CusViewOrder"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.MakePayment"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.SelectItem"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmployeeHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmployeeLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmployeeRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CustomerHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CustomerRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CustomerLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Customer.CustomerBasket"
+            android:exported="false" />
+        <activity
+            android:name=".Employee.EmpChangeOpen"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminHome"
+            android:exported="false" />
+        <activity
+            android:name=".Users"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

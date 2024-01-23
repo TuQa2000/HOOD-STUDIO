@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:background="@drawable/backgroound"
+    tools:context=".AdminChangeOpen">
+
+    <ImageView
+        android:id="@+id/pic10"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_weight="70"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/cus_name10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/textview"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Cus Name: "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/write"
+        />
+
+    <TextView
+        android:id="@+id/cus_phone10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Customer Phone: "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/write"
+        />
+
+    <TextView
+        android:id="@+id/t_name10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Name: "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/write"
+        />
+
+    <TextView
+        android:id="@+id/t_Price10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview"
+        android:paddingRight="10dp"
+        android:text="Price: "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/write"/>
+
+    <TextView
+        android:id="@+id/t_size10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@drawable/textview"
+        android:layout_marginTop="10dp"
+        android:text="Item Size: "
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/write"
+        />
+
+    <TextView
+        android:id="@+id/t_detail10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Detail: "
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview"
+        android:paddingRight="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/write"
+        />
+
+    <TextView
+        android:id="@+id/t_address10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Delivery Address: "
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/textview"
+        android:paddingRight="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/write"
+        />
+
+    <TextView
+        android:id="@+id/t_sel10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="select Order Status"
+        android:layout_gravity="center"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingRight="10dp"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="350dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:paddingLeft="10dp" />
+
+    <Button
+        android:id="@+id/btn_save10"
+        android:layout_width="300dp"
+        android:layout_height="54dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/aclonica"
+        android:text="Save Changes"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+</LinearLayout>

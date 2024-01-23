@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroound"
+    android:paddingTop="20dp"
+    tools:context=".Customer.CustomerBasket">
+
+    <ProgressBar
+        android:id="@+id/progress_circle6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view6"
+        android:layout_width="match_parent"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_height="580dp"
+        android:layout_below="@id/txt_heading"/>
+
+    <TextView
+        android:id="@+id/txt_heading"
+        android:layout_width="370dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text="Basket Orders"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/recycler_view6"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/below_bar"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.036"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/b_setting1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/baseline_settings_24"
+            android:text="Settings" />
+
+        <TextView
+            android:id="@+id/b_basket1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/baseline_shopping_basket_24"
+            android:text="Basket" />
+
+        <TextView
+            android:id="@+id/b_home1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/baseline_home_24"
+            android:text="Home" />
+
+    </LinearLayout>
+
+</RelativeLayout>
